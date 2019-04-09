@@ -1,14 +1,14 @@
 Ansible Role: mcrouter 
 ======================================
 
-[![Build Status](https://travis-ci.org/entercloudsuite/ansible-mcrouter-apt.svg?branch=master)](https://travis-ci.org/entercloudsuite/ansible-mcrouter-apt/builds/517989524#)
+[![Build Status](https://travis-ci.org/entercloudsuite/ansible-mcrouter-apt.svg?branch=master)](https://travis-ci.org/entercloudsuite/ansible-mcrouter-apt)
 [![Galaxy](https://img.shields.io/badge/galaxy-entercloudsuite.ansible_mcrouter-blue.svg?style=flat-square)](https://galaxy.ansible.com/entercloudsuite/ansible_mcrouter)  
 
 Installs mcrouter on Ubuntu 16.04 (Xenial)
 
 ## Requirements
 
-This role requires Ansible 2.4 or higher.
+This role requires Ansible 2.6.2 or higher.
 
 ## Role Variables
 
