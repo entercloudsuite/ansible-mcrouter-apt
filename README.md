@@ -12,7 +12,15 @@ This role requires Ansible 2.4 or higher.
 
 ## Role Variables
 
-The role defines most of its variables in `defaults/main.yml`:
+The role defines its variables in `defaults/main.yml`:
+
+|Name|Description|Default Value|
+|----|-----------|-------------|
+|mcrouter_gpg_key|mcrouter GPG key|https://facebook.github.io/mcrouter/debrepo/xenial/PUBLIC.KEY|
+|mcrouter_repository|mcrouter deb repository|deb https://facebook.github.io/mcrouter/debrepo/xenial xenial contrib|
+|mcrouter_version|mcrouter version|0.40.0-1|
+|mcrouter_port|Mmcrouter listen port|11213|
+|mcrouter_address_pool|memcahed pool list|localhost:11211|
 
 ## Example Playbook
 
