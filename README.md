@@ -1,8 +1,8 @@
 Ansible Role: mcrouter 
 ======================================
 
-[![Build Status](https://travis-ci.org/entercloudsuite/ansible-mcrouter.svg?branch=master)](https://travis-ci.org/entercloudsuite/ansible-mcrouter)
-[![Galaxy](https://img.shields.io/badge/galaxy-entercloudsuite.mcrouter-blue.svg?style=flat-square)](https://galaxy.ansible.com/entercloudsuite/mcrouter)  
+[![Build Status](https://travis-ci.org/entercloudsuite/ansible-mcrouter-apt.svg?branch=master)](https://travis-ci.org/entercloudsuite/ansible-mcrouter-apt/builds/517989524#)
+[![Galaxy](https://img.shields.io/badge/galaxy-entercloudsuite.ansible_mcrouter-blue.svg?style=flat-square)](https://galaxy.ansible.com/entercloudsuite/ansible_mcrouter)  
 
 Installs mcrouter on Ubuntu 16.04 (Xenial)
 
