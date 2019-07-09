@@ -22,7 +22,18 @@
       owner: root
       group: root
       mode: 0644
+- name: create systemd directory for override haproxy value
+  file:
+    state: directory
+    path: /etc/systemd/system/mcrouter.service.d
 
+- name: increase number of openfiles and process limits
+  template:
+    src: systemd_override.conf.j2
+    dest: /etc/systemd/system/mcrouter.service.d/override.conf
+    owner: root
+    group: root
+    mode: 0644
 - name: systemd daemon reload and start service
   systemd:
       name: mcrouter
